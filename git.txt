@@ -1,9 +1,0 @@
-´¨A75TF2
-
-Git is a distributed version control system.
-Git is free software.
-
-this is my first git
-
-
-third modify
