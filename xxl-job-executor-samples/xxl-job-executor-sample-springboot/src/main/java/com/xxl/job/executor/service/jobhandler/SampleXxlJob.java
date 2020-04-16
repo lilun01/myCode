@@ -46,16 +46,7 @@ public class SampleXxlJob {
         }
         return ReturnT.SUCCESS;
     }
-    @XxlJob("demoJobHandler1")
-    public ReturnT<String> demoJobHandler(String param) throws Exception {
-    	XxlJobLogger.log("XXL-JOB, Hello World.");
-    	
-    	for (int i = 0; i < 5; i++) {
-    		XxlJobLogger.log("beat at:" + i);
-    		TimeUnit.SECONDS.sleep(2);
-    	}
-    	return ReturnT.SUCCESS;
-    }
+ 
     @XxlJob("lilunJobHandler")
     public ReturnT<String> lilunJobHandler(String param) throws Exception {
     	XxlJobLogger.log("lilunJobHandler========= XXL-JOB, Hello World.");
